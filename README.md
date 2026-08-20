@@ -9,16 +9,17 @@
 ## Activate the environment
 
 ```powershell
-.\phishfiner\Scripts\Activate.ps1
+.\venv\Scripts\Activate.ps1
 ```
 
 If PowerShell blocks the script:
 
 ```powershell
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-.\phishfiner\Scripts\Activate.ps1
+.\.venv\Scripts\Activate.ps1
 ```
-
+<!-- to install the libraries -->
+# pip install -r requirements.txt
 <!-- pip list 
 Package             Version
 ------------------- -----------
