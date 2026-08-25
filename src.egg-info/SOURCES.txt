@@ -1,5 +1,7 @@
 README.md
 setup.py
+database/__init__.py
+database/mongodb_connection.py
 src.egg-info/PKG-INFO
 src.egg-info/SOURCES.txt
 src.egg-info/dependency_links.txt

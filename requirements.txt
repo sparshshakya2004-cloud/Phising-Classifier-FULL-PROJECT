@@ -31,7 +31,6 @@ boto3==1.26.105
 
 
 
-
+# python -m pip install "pymongo[srv]"
 # python -m pip install "pymongo[srv]==3.12"
-
 
