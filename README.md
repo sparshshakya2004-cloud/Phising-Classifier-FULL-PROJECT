@@ -99,4 +99,12 @@ uuid6               2025.0.1
 uvicorn             0.52.3
 watchdog            6.0.0
 watchfiles          1.2.0
-websockets          17.0.1 -->
+websockets          17.0.1 
+-e . -->
+
+
+<!-- mongo DB connection -->
+ # cd "F:\Semister 5th\ML Tranning project"
+ # python database\mongodb_connection.py
+<!-- Verify the file exists: -->
+ # dir "F:\Semister 5th\ML Tranning project\database"
