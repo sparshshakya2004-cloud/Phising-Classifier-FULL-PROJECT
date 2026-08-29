@@ -31,10 +31,5 @@ boto3==1.26.105
 dotenv
 imblearn
 # -e .
-
-
-
-
-# python -m pip install "pymongo[srv]"
 # python -m pip install "pymongo[srv]==3.12"
 
