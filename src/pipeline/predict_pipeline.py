@@ -1,11 +1,11 @@
 import shutil
 import os,sys
 import pandas as pd
-from src.logger import logging
+from src.utils.logger import logging
 
 from src.exception import CustomException
 import sys
-from flask import request
+from flask import Request
 from src.constant import *
 from src.utils.main_utils import MainUtils
 
@@ -21,9 +21,9 @@ class PredictionFileDetail:
 
 
 class PredictionPipeline:
-    def __init__(self, request: request):
+    def __init__(self, request_obj: Request):
 
-        self.request = request
+        self.request = request_obj
         self.utils = MainUtils()
         self.prediction_file_detail = PredictionFileDetail()
 
