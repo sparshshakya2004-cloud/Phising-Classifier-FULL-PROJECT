@@ -6,10 +6,10 @@ import os
 import shutil
 import json
 
-from env.Lib.pathlib import Path
+from pathlib import Path
 from src.constant import *
 from src.exception import CustomException
-from src.logger import logging
+from src.utils.logger import logging
 from src.utils.main_utils import MainUtils
 from dataclasses import dataclass
 
